@@ -1,18 +1,3 @@
-## What is it?
-
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
-
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
-
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
-
----
-
 ## Table of Contents
 
 - [What is it?](#what-is-it)
@@ -131,69 +116,6 @@ If you want to be a reliability engineer or operations engineer, study more from
 - [Papers](#papers)
 
 ---
-
-## Why use it?
-
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
-
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
-
-## How to use it
-
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using Github's special markdown flavor, including tasks lists to track progress.
-
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-    Fork a branch and follow the commands below
-
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button
-
-    Clone to your local repo
-
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
-
-`git fetch --all`
-
-    Mark all boxes with X after you completed your changes
-
-`git add .`
-
-`git commit -m "Marked x"`
-
-`git rebase jwasham/main`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-
-## Don't feel you aren't smart enough
-
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-
-## About Video Resources
-
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
-
 
 ## Interview Process & General Interview Prep
 
@@ -376,14 +298,6 @@ Take a break from programming problems for a half hour and go through your flash
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
 without lyrics and you'll be able to focus pretty well.
 
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
-
 ## The Daily Plan
 
 Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
@@ -463,7 +377,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [ ] [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+        - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
@@ -490,7 +404,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Linked Lists
     - [ ] Description:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+        - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
@@ -505,19 +419,19 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implement (I did with tail pointer & without):
         - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
+        - [x] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [x] push_front(value) - adds an item to the front of the list
+        - [x] pop_front() - remove front item and return its value
+        - [x] push_back(value) - adds an item at the end
+        - [x] pop_back() - removes end item and returns its value
+        - [x] front() - get value of front item
+        - [x] back() - get value of end item
+        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
         - [ ] erase(index) - removes node at given index
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+        - [x] remove_value(value) - removes the first item in the list with this value
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
